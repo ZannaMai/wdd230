@@ -9,12 +9,12 @@ header {
     padding: 20px;
     align-items: center;
     justify-items: center;
-    width: 100%;
+    max-width: 450px;
 }
 body {
     display: grid;
     margin: auto;
-    max-width: 960px;
+    max-width: 450px;
 }
 footer {
     display: grid;
@@ -28,6 +28,14 @@ footer {
     align-items: center;
     justify-items: center;
     width: 100%;
+}
+ul {
+    display: grid;
+    justify-items: center;
+}
+h2 {
+    display: grid;
+    justify-items: center;
 }
 @media screen and (max-width: 550px) { 
     .body {
