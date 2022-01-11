@@ -7,14 +7,18 @@ header {
     color: seashell;
     border-radius: 5px;
     padding: 20px;
+    align-content: center;
+    justify-content: center;
     align-items: center;
     justify-items: center;
     max-width: 450px;
+    font-family: 'Luxurious Roman', cursive;
 }
 body {
     display: grid;
     margin: auto;
     max-width: 450px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 footer {
     display: grid;
@@ -36,6 +40,7 @@ ul {
 h2 {
     display: grid;
     justify-items: center;
+    font-family: 'Luxurious Roman', cursive;
 }
 @media screen and (max-width: 550px) { 
     .body {
