@@ -12,7 +12,7 @@ header {
     align-items: center;
     justify-items: center;
     max-width: 450px;
-    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Luxurious Roman', cursive, serif;
 }
 body {
     display: grid;
