@@ -5,10 +5,7 @@ header {
     margin-top: 1em;
     background-color: rgb(47, 145, 177);
     color: seashell;
-    border-radius: 5px;
-    padding: 20px;
-    align-content: center;
-    justify-content: center;
+    padding: 10px;
     align-items: center;
     justify-items: center;
     max-width: 450px;
@@ -17,7 +14,6 @@ header {
 body {
     display: grid;
     margin: auto;
-    max-width: 450px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 footer {
@@ -42,18 +38,21 @@ h2 {
 }
 #section-1 {
     background-color: lightgray;
+    max-width: 450px;
 }
 #white-space {
     background-color: rgb(47, 145, 177);
 }
 #section-2 {
     background-color: lightgray;
+    max-width: 450px;
 }
 #contrast {
     background-color: rgb(47, 145, 177);
 }
 #section-3 {
     background-color: lightgray;
+    max-width: 450px;
 }
 #proximity {
     background-color: rgb(47, 145, 177);
