@@ -26,16 +26,9 @@ footer {
     grid-gap: 15px;
     margin-top: 1em;
     background-color: rgb(47, 145, 177);
-    color: seashell;
     border-radius: 5px;
     padding: 20px;
-    align-items: center;
-    justify-items: center;
     width: 100%;
-}
-ul {
-    display: grid;
-    justify-items: center;
 }
 h2 {
     display: grid;
@@ -46,4 +39,22 @@ h2 {
     .body {
     display: block;
     }
+}
+#section-1 {
+    background-color: lightgray;
+}
+#white-space {
+    background-color: rgb(47, 145, 177);
+}
+#section-2 {
+    background-color: lightgray;
+}
+#contrast {
+    background-color: rgb(47, 145, 177);
+}
+#section-3 {
+    background-color: lightgray;
+}
+#proximity {
+    background-color: rgb(47, 145, 177);
 }

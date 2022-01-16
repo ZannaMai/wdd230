@@ -5,4 +5,3 @@ lastmod.textContent = 'Page was last modified: ${document.lastModified}';
 
 
 
-
