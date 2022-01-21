@@ -1,27 +1,27 @@
-html {
-    background-color: #582C4D;
-}
 body {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #ECE2D0;
+    background-color: #9988e7;
     padding: 1em;
+}
+html {
+    background-color: #161827;
+    font-family: 'Oswald', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Dancing Script', cursive;
 }
 img {
     max-width: 100%;
 }
 header, footer {
-    color: #582C4D;
-    background-color: #A26769;
+    color: #161827;
+    background-color: #808c9d;
     padding: 1em;
     text-align: center;
 }
-main {
-    color: #582C4D;
-}
 nav {
-    text-decoration: none;
-    background-color: #D5B9B2;
+    background-color: #a6b1e1;
     text-align: center;
 }
 nav ul {
@@ -34,19 +34,20 @@ nav ul li {
     flex: 1 1 auto;
 }
 nav ul li a {
+    text-decoration: none;
     padding: 15px;
-    color: #582C4D;
+    color: #161827;
     font-size: 20px;
 }
 nav a:hover {
-    color: #BFB5Af;
+    color: #9988e7;
 }
 h1 {
-    font-size: 30px;
+    font-size: 50px;
 }
 h2 {
-    font-size: 20px;
+    font-size: 30px;
 }
 h3 {
-    font-size: 15px;
+    font-size: 20px;
 }
