@@ -6,8 +6,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 h1, p {margin: 0 2vw;}
 
+body {
+    display: block;
+}
 #logo-small {
-    width: 10%;
+    width: 70px;
+    float: left;
+    margin-top: -100px;
 }
 nav button {
     margin: .2rem 2vw;
@@ -39,3 +44,61 @@ nav ul li.home a {
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
 }
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #9988e7;
+    padding: 1em;
+}
+html {
+    background-color: #161827;
+    font-family: 'Oswald', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Dancing Script', cursive;
+}
+img {
+    max-width: 100%;
+}
+header, footer {
+    color: #161827;
+    background-color: #808c9d;
+    padding: 1em;
+    text-align: center;
+}
+nav {
+    background-color: #a6b1e1;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    padding: 15px;
+    display: flex;
+    flex: 1 1 auto;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: #161827;
+    font-size: 20px;
+}
+nav a:hover {
+    color: #9988e7;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+img {
+    max-width: 75%;
+}
+
+  

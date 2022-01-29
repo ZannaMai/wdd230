@@ -5,15 +5,19 @@
     <meta name="description" content="Fill Me In" />
     <meta name="author" content="John Doe" />
 
-    <!-- This start file was build by Paul Cheney  -->
-    <title>HTML5 Start Site by Paul Cheney</title>
+    <title>Home Page Site</title>
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet" />
     <!-- phone-default -->
@@ -34,30 +38,59 @@
         alt="logo-small"
       />
     </header>
-
-    <!-- NAVIGATION HERE -->
-    <nav>
-      <button>&#9776;</button>
-      <ul>
-        <li class="home"><a href="#">Home</a></li>
-        <li class="Products"><a href="#">Products</a></li>
-        <li><a href="#">Location</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-
-    <!-- CONTENT HERE -->
-    <main>
-      <h1>Products</h1>
-      <p>The page name shoud almost exactly match the menu item.</p>
-    </main>
-
-    <!-- FOOTER HERE -->
+    <div class="social">
+      <a class="logos" href="https://instagram.com" target="blank"><img src="images/instagram.jpg" alt="Instagram Link"></a>
+      <a class="logos" href="https://facebook.com" target="blank"><img src="images/facebook_logo.png" alt="Facebook Link"></a>
+  </div>
+  <span id="date"></span>
+  <button id="hamburgerMenu"><span>&#9776;</span><span>X</span></button>
+  <nav>
+    <ul id="Nav">
+       <li><a href="index.html">Discover</a></li>
+       <li><a href="index.html">Directory</a></li>
+       <li><a href="index.html">Join</a></li>
+       <li><a href="index.html">Contact</a></li>  
+   </ul>
+  </nav>
+  </div>
+</header>
+<main>
+   <div class="mainContent">
+   <div class="hero">Hero with site name and call to action</div><br>
+   <div class="event">Event</div><br>
+   <div class="weather">Weather</div><br>
+   <div class="news">News Release</div><br>
+   <div class="place-holder">
+       <p><span>Spotlight 1</span></p>
+       <p><span>Spotlight 2</span></p>
+       <p><span id="spotlight-3">Spotlight 3</span></p></div><br>
+   <div class="join">Join</div><br>
+   </div>
+</main>
+</div>
+<footer>
+  <hr id="h-row">
+  <div class="address">
+      <img src="images/logo_small_icon_only_inverted.png" alt="SC Chamber logo">
+      <h3><strong>Contact</strong></h3>
+      <p><strong>Island Falls</strong></p>
+      <p><strong>Chamber of Commerce</strong></p>
+      <p>12345 Road Drive</p>
+      <p>Fall, AZ 85142</p>
+  </div>
+  <div class="contact">                
+      <p>
+          <strong>Phone: </strong><a href="telephone"> (123) 456-7891</a>
+          <br>
+          <strong>Email:</strong><a href="mailingaddress"> ChamberInfo@ischamber.org</a>
+          <a href="https://www.google.com/maps/place/Island+Falls+Town+Office/@46.0098529,-68.5455005,10z/data=!4m9!1m2!2m1!1schamber+of+commerce+near+Island+Falls,+Maine!3m5!1s0x4ca4d67c3c307199:0x89cabc07dfcbf795!8m2!3d46.0097875!4d-68.2653387!15sCixjaGFtYmVyIG9mIGNvbW1lcmNlIG5lYXIgSXNsYW5kIEZhbGxzLCBNYWluZVotIitjaGFtYmVyIG9mIGNvbW1lcmNlIG5lYXIgaXNsYW5kIGZhbGxzIG1haW5lkgEJY2l0eV9oYWxs" target="blank">🗺️ Location Map</a>
+      </p>
+  </div>
     <footer>
         &copy;<span id="year"></span> | Zanna Johnson | Idaho <br />
         <span id="updated"></span>
       </footer>
       <script defer src="js/date.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/toggle-menu.js"></script>
   </body>
 </html>
