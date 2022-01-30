@@ -2,19 +2,45 @@
   #logo-small {
     width: 100px;
   }
-  nav button {
-    display: none;
-  }
+  .news, .weather, .event, .join, .spotlight{
+    position: relative;   
 
-  nav ul {
+}
+
+.news {
+    top: -616px;
+}
+.event {
+    top: 616px;
+    width: 50%;
+}
+
+.weather {
+    top: 411px;
+    width: 50%;
+    left: 438px;
+    
+}
+
+.spotlight {
+    top: -616px;
+}
+
+
+
+.spotlight3 {display: none;}
+
+.spotlight {
     display: flex;
-    justify-content: center;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
-  }
+    flex-direction: row;
+    height: 200px;
+}
 
-  nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
-  }
+.spotlight1, .spotlight2 {
+    margin: -5px;
+}
+nav button {
+  display: none;
+}
+
 }
