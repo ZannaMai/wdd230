@@ -10,9 +10,12 @@ body {
     display: block;
 }
 #logo-small {
-    width: 70px;
+    width: 75px;
     float: left;
-    margin-top: -100px;
+    margin-top: -150px;
+}
+.social .logos {
+    width: 50%;
 }
 nav button {
     margin: .2rem 2vw;
