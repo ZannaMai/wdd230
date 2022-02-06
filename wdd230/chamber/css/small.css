@@ -19,11 +19,12 @@ p {
 body {
   display: block;
 }
-#logo-small {
+header #logo-small {
   width: 75px;
   float: left;
   margin-top: -150px;
 }
+
 .social .logos {
   width: 50%;
 }
