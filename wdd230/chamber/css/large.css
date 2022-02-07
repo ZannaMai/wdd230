@@ -2,7 +2,9 @@
   #logo-small {
     width: 150px;
   }
-
+  .announcement {
+    margin-top: -90px;
+  }
   nav ul li a {
     padding: 0.5rem 1rem;
   }
