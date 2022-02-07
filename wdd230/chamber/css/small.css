@@ -60,7 +60,7 @@ nav ul li.home a {
 nav ul li a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
-#date {
+#current-date {
   color: #161827;
   background-color: #eee;
   text-align: center;

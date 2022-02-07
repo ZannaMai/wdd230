@@ -5,3 +5,11 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 let lastVisit = document.lastModified;
 document.getElementById("updated").textContent = "Last Updated:" + lastVisit;
+
+let dateField = document.querySelector("#current-date");
+
+let now = new Date();
+let fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	now);
+
+dateField.innerHTML = String(fulldate);
