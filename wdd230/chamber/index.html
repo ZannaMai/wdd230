@@ -60,7 +60,12 @@
 <main>
   <div class="home-grid">
     <div class="hero">
-        <img src="images/waterfall.jpg" alt="Image">
+        <picture class="hero-image">
+            <source media="(max-width: 637px)" srcset="images/small.jpg">
+            <source media="(max-width: 1167px)" srcset="images/medium.jpg">
+            <source media="(max-width: 1500px)" srcset="images/large.jpg">
+        <img src="images/wdd230-org (1).jpg" alt="people talking in a meeting">
+        </picture>
         <h2>
             Welcome to Island Falls!
         </h2>
