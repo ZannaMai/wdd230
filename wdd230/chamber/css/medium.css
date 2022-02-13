@@ -20,6 +20,14 @@
     grid-column: 1/4;
     grid-row: 1;
   }
+  .weather .temp-move {
+    margin-top: -100px;
+  }
+
+  .weather img {
+    float: none;
+
+  }
 
   .news-release {
     grid-row: 2;
