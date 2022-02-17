@@ -1,0 +1,12 @@
+#borders {
+    border-bottom: dotted rgb(51, 21, 220);
+}
+#corners {
+    background-color: rgb(58, 140, 211);
+    border: 10px solid saddlebrown;
+    border-radius: 10% / 50%;
+}
+#shadows {
+    border: solid;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}

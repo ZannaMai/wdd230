@@ -358,3 +358,13 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
 }
+.discover-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+picture {
+  grid-column-start: 1;
+}
+picture a {
+  font-size: 75%;
+}
