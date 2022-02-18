@@ -2,8 +2,8 @@
 
 let start = -1;
 let end = start + 1;
-const headerClass = document.getElementById("etch");
-let headline = ["Aaron's Lazy Placeholders"]
+const headerClass = document.getElementById("headline");
+let headline = ["Zanna's Lazy Loading Page"]
 
 
 function headerPrint() {   
