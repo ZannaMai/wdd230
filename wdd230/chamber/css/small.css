@@ -359,12 +359,18 @@ nav ul.open {
   display: block;
 }
 .discover-grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  justify-content: center;
+  margin-top: 150px;
 }
-picture {
-  grid-column-start: 1;
+picture img {
+  padding: 25px;
 }
-picture a {
+.discover-grid a {
   font-size: 75%;
+}
+.discover-grid p {
+  border: solid;
+  background-color: #a6b1e1;
+  padding: 10px;
+  border-color:#a6b1e1;
 }
