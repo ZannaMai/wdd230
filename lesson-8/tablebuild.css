@@ -1,3 +1,6 @@
-html {
-    font-family: Ubuntu sans-serif;
+table {
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 5px 5px 10px lightblue;
+    text-align: center;
+    margin: auto;
 }
