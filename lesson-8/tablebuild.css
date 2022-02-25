@@ -21,3 +21,6 @@ th, td {
 .dark {
     background-color: dodgerblue;
 }
+tfoot td:nth-child(1) {
+    font-size: 12px;
+}
