@@ -3,4 +3,15 @@ table {
     box-shadow: 5px 5px 10px lightblue;
     text-align: center;
     margin: auto;
+    border-collapse: collapse;
+}
+body {
+    margin-top: 3em;
+}
+th, td {
+    padding: .5em;
+    border: solid 1px darkblue;
+}
+.acme {
+    background-color: blue;
 }
