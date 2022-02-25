@@ -10,8 +10,14 @@ body {
 }
 th, td {
     padding: .5em;
-    border: solid 1px darkblue;
+    border: solid 1px lightblue;
 }
 .acme {
-    background-color: blue;
+    background-color: lightblue;
+}
+.th {
+    background-color: dodgerblue;
+}
+.dark {
+    background-color: dodgerblue;
 }
