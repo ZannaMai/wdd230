@@ -84,4 +84,10 @@
     grid-column: 1;
     margin: 10px;
   }
+  .form {
+    margin-left: 350px;
+  }
+  .submitBtn {
+    width: auto;
+  }
 }

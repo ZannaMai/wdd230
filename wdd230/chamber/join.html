@@ -44,8 +44,8 @@
     <button id="hamburgerBtn"><span>&#9776;</span><span>&#10070;</span></button>
     <ul id="primaryNav">
         <li><a href="./discover.html">Discover</a></li>
-        <li class="active"><a href="./index.html">Directory</a></li>
-        <li><a href="./join.html">Join</a></li>
+        <li><a href="">Directory</a></li>
+        <li  class="active"><a href="./join.html">Join</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
 </nav>
@@ -56,84 +56,57 @@
 <div class="timebar"></div>
 <div class="announcement"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
 </header>
-<main>
-  <div class="home-grid">
-    <div class="hero">
-        <picture class="hero-image">
-            <source media="(max-width: 637px)" srcset="images/small.jpg">
-            <source media="(max-width: 1167px)" srcset="images/medium.jpg">
-            <source media="(max-width: 1500px)" srcset="images/large.jpg">
-        <img src="images/wdd230-org (1).jpg" alt="people talking in a meeting">
-        </picture>
-        <h2>
-            Welcome to Island Falls!
+<main class="form">
+        <h2 class="thank">
+            Join Island Falls Chamber of Commerce!
         </h2>
-        <section class="join-button">
-            <button type="button">
-                <h3>
-                    Join the Chamber Today!
-                </h3>
-            </button>
-        </section>
-    </div>
-    <div class="event">
-        <h2>
-            Farmer's Market
-        </h2>
-        <p>
-            Join us for the Island Falls weekly Farmer's Market at the old town barn on west street!
-        </p>
-        <a href="#">MORE INFO</a>
-    </div>
-    <div class="weather">
-        <h2>
-            Current Weather
-        </h2>
-        <img src="images/weather.png" alt="weather icon">
-        <div class="temp-move">
-        <p><span id="temperature">75</span>&#176;F</p>
-        <p>Sunny</p>
-        
-        <p>Wind Speed: <span id="wind">2.5</span>mph</p>                
-        <p>Wind Chill: <span id="chillWind"></span></p>
-        </div>
-    </div>
-    <div class="news-release">
-        <h2>
-            New Release
-        </h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et ex at risus ornare ultrices sit amet ac enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla neque, aliquam at sem eu, vehicula imperdiet purus. Sed eu arcu non mi elementum ultricies id at leo. Sed luctus convallis nulla, quis bibendum ante posuere a. Morbi semper nisi id nibh volutpat convallis. Aenean sodales elit imperdiet erat aliquam, sed fringilla lorem accumsan. Duis et molestie tortor, condimentum blandit velit. Fusce a congue enim, a tristique eros. Mauris lectus urna, pellentesque vitae congue sit amet, condimentum in ligula.
-        </p>
-    </div>
-    <div class="join">
-        <button type="button">
-            <h2>
-                Join us!
-            </h2>
-        </button>
-        <p>
-            Discover how to join your Island Falls Chamber of Commerce today!
-        </p>
-    </div>
-    <div class="spotlights">
-        <div class="spotlight-1">
-            <h2>
-                Lorelai's Bee Enclosure
-            </h2>
-        </div>
-        <div class="spotlight-2">
-            <h2>
-                The Johnson's AirBnb
-            </h2>
-        </div>
-        <div class="spotlight-3">
-            <h2>
-                Wilbur's Family Diner
-            </h2>
-        </div>
-    </div>
-</div>
+        <form action="./thankyou.html">
+            <fieldset class="joincontact">
+            <legend>Contact Information</legend>
+
+            <label>First Name<span>*</span>
+                <input name="name" type="text" required>
+            </label>
+
+            <label>Last Name<span>*</span>
+                <input name="name" type="text" required>
+            </label>
+
+            <label>Business Position
+                <input name="title" type="text" minlength="7">
+            </label>
+
+            <label>Email<span>*</span>
+                <input name="email" type="email" placehoder="someone@gmail.com" required>
+            </label>
+
+            <label>Cell Phone Number<span>*</span>
+                <input name="phone" type="tel" required>
+            </label>
+
+            <label>Business Name<span>*</span>
+                <input name="title" type="text" required>
+            </label>
+        </fieldset>
+        <fieldset class="membership">
+            <legend>Membership</legend>
+
+            <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="nonProfit">Non Profit</label>
+            <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="bronze">Bronze</label>
+            <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="silver">Silver</label>
+            <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="gold">Gold</label>
+       
+        </fieldset>
+
+        <fieldset>
+            <legend class="legends">Additional Details</legend>
+            <label class="primary" id="descriptionLabel" for="descriptionLabel">Business Description: <textarea rows="4"></textarea></label>
+            
+        </fieldset>  
+
+        <input type="submit" value="Enroll My Business" class="submitBtn">
+
+        </form>
 </main>
 <footer>
   <hr id="h-row">
@@ -160,6 +133,5 @@
       <script defer src="js/date.js"></script>
     <script src="js/toggle-menu.js"></script>
     <script src="js/banner.js"></script>
-    <script src="js/windchill.js"></script>
   </body>
 </html>

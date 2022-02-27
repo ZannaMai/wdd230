@@ -374,3 +374,56 @@ picture img {
   padding: 10px;
   border-color:#a6b1e1;
 }
+form {
+  padding: 1rem 0;
+  justify-items: center;
+}
+fieldset {
+  border-radius: 5px;
+  margin-bottom: 1.25rem;
+  grid-column: 1;
+  max-width: 450px;
+  background-color: lightgrey;
+}
+fieldset legend {
+  padding: 0.25rem;
+}
+form label {
+  font-size: 0.8em;
+}
+form label, form div {
+margin-top: 1rem;
+padding-bottom: 0.3rem;
+}
+form label span {
+color: #ffa971;
+}
+form label, form input, form select, form textarea {
+display: block;
+width: 100%;
+}
+form input {
+margin-top: 5px;
+width: calc(100% - 0.75rem * 2);
+padding: 0.75rem;
+}
+form input, form select, form textarea {
+background-color: #eeeeee;
+border: solid 1px;
+border-radius: 4px;
+}
+form input[type="submit"] {
+background-color:#808c9d;
+}
+form input[type="submit"]:hover {
+background-color:#161827;
+}
+.thank {
+  margin-top: 80px;
+}
+.confirmation {
+  border: solid 2px;
+  background-color:#a6b1e1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
