@@ -382,11 +382,17 @@ fieldset {
   border-radius: 5px;
   margin-bottom: 1.25rem;
   grid-column: 1;
-  max-width: 450px;
+  max-width: 500px;
   background-color: lightgrey;
 }
 fieldset legend {
   padding: 0.25rem;
+}
+legend {
+  background-color:#808c9d;
+}
+.input {
+  width: 100%;
 }
 form label {
   font-size: 0.8em;
@@ -396,16 +402,11 @@ margin-top: 1rem;
 padding-bottom: 0.3rem;
 }
 form label span {
-color: #ffa971;
+color: #9d4c16;
 }
 form label, form input, form select, form textarea {
 display: block;
-width: 100%;
-}
-form input {
-margin-top: 5px;
-width: calc(100% - 0.75rem * 2);
-padding: 0.75rem;
+font-size: larger;
 }
 form input, form select, form textarea {
 background-color: #eeeeee;
@@ -416,7 +417,7 @@ form input[type="submit"] {
 background-color:#808c9d;
 }
 form input[type="submit"]:hover {
-background-color:#161827;
+background-color:#555;
 }
 .thank {
   margin-top: 80px;
@@ -426,4 +427,13 @@ background-color:#161827;
   background-color:#a6b1e1;
   padding: 10px;
   margin-bottom: 10px;
+}
+.submitBtn {
+  font-family: "Oswald", sans-serif;
+}
+.info {
+  border: dashed black;
+  padding: 10px;
+  background-color: #a6b1e1;
+  margin-top: 10px;;
 }
