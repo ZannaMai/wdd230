@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  font-size: 16px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border: solid 2px blue;
+    padding: 40px;
+}
+
+h1 {
+    justify-items: center;
+}
+
+main {
+  margin-left: 2rem;
+}
+
+img {
+  width: auto;
+  max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+  border: 1px solid #333;
+}
+
+
