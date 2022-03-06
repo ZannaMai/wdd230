@@ -440,3 +440,85 @@ background-color:#555;
 .secondary {
   text-decoration: underline;
 }
+
+.directory header {
+  background-color:#9988e7;
+  margin-top: 10px;
+  text-align: center;
+  margin-top: 75px;
+}
+#gridBtn {
+  border: none;
+  background-color: transparent;
+ padding: 5px;
+}
+#listBtn {
+  border: none;
+  background-color: transparent;
+ padding: 5px;
+}
+
+#gridBtn:active {
+  transform: translateY(1px);
+}
+#listBtn:active {
+  transform: translateY(1px);
+}
+
+#gridBtn span:nth-child(1) {display: block;}
+#gridBtn span:nth-child(2) {display: none;}
+
+#listBtn.active span:nth-child(1) {display: none;}
+#listBtn.active span:nth-child(2) {display: block;}
+
+#cards {
+  text-align: center;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+#cards.active {
+  display: block;
+}
+#cards section {
+  padding: 0.35rem;
+  background-color:#808c9d;
+  border: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+#cards h2 {
+  color: #5bc0be;
+}
+#cards section img {
+  max-width: 7em;
+  padding-top: 10px;
+  width: 50%;
+}
+
+#cards section span:nth-child(2) {
+  display: none;
+}
+
+#cards section a:nth-child(5) {
+  color:#5bc0be;
+}
+#cards.active section {
+text-align: left;
+}
+
+#cards.active section:nth-child(odd) {
+  background-color: #4363a0;
+}
+
+#cards.active section img {
+  display: none;
+}
+
+#cards.active section span:nth-child(2) {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 0;
+}

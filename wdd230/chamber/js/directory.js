@@ -1,35 +1,49 @@
-const requestURL = "https://zannamai.github.io/wdd230/chamber/data/data.json";
-const cards = document.querySelector('.cards');
- 
+const requestURL = 'https://zannamai.github.io/wdd230/wdd230/chamber/data/data.json';
+let companies = null;
+
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const companies = jsonObject['companies'];
+    companies = jsonObject['companies'];
     companies.forEach(displayCompanies);
   });
- 
-  function displayCompanies(company) {
-    // create elements to add to the document
-    let card = document.createElement("section");
-    let h2 = document.createElement("h2")
-    let portrait = document.createElement("img")
-    let info = document.createElement("p")
-// add the companies name to the h2 textcontent
-    h2.textContent = company.name + " " + company.address;
-    info.innerHTML = `Phone Number: ${company.phonenumber} <br> Website: ${company.website} `
-    favicon.setAttribute('src', company.imageurl);
-    favicon.setAttribute('alt', `${company.name} ${company.address}`);
-    favicon.setAttribute('loading', 'lazy')
- 
-// appent to the section(card)
-    card.appendChild(h2);
-    card.appendChild(info)
-    card.appendChild(favicon);
- 
-// add to existing HTML div
-    cards.appendChild(card);  
-}
+    function displayCompanies(companies) {
+    
+    let card = document.createElement('section');
+    let imageurl = document.createElement('img');
+    let name = document.createElement('h2');
+    let address = document.createElement('span');
+    let phonenumber = document.createElement('span');
+    let website = document.createElement('a');
+    
+  
+    name.textContent = companies.name;
+    address.textContent = companies.address;
+    phonenumber.textContent = companies.phonenumber;
+    website.textContent = companies.website;
+  
+    image.setAttribute('src', companies.imageurl);
+    image.setAttribute('alt', `Image of ${companies.name}'s logo`);
+    image.setAttribute('loading', 'lazy');
+  
+    
+    card.appendChild(imageurl);
+    card.appendChild(name);
+    card.appendChild(address);
+    card.appendChild(phonenumber);
+    card.appendChild(website);
+   
+  
+    document.getElementById('cards').appendChild(card);
 
+}
+function toogleView() {
+    document.getElementById('gridBtn').classList.toggle('active')
+    document.getElementById('cards').classList.toggle('active')
+}
+function toogleView() {
+    document.getElementById('listBtn').classList.toggle('active')
+    document.getElementById('cards').classList.toggle('active')
+}

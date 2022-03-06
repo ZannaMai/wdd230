@@ -56,8 +56,18 @@
 <div class="timebar"></div>
 <div class="announcement"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
 </header>
-<main>
-    <div class="cards"></div>
+<main class="directory">
+    <header>
+    <h1>Business Directory</h1>
+    </header>
+    <div class="directory-btns">
+        <button id="gridBtn" onclick="toogleView()">
+            <span><img src="./images/grid.png" alt="Grid view"></span> </button>
+            <button id="listBtn" onclick="toogleView()">
+            <span><img src="./images/list.png" alt="List view"></span>
+            </button>
+    </div>
+    <div id="cards"></div>
 </main>
 <footer>
   <hr id="h-row">
@@ -82,8 +92,8 @@
         <span id="updated"></span>
       </footer>
       <script defer src="js/date.js"></script>
-    <script src="js/toggle-menu.js"></script>
-    <script src="js/banner.js"></script>
-    <script src="js/directory.js"></script>
+    <script defer src="js/toggle-menu.js"></script>
+    <script defer src="js/banner.js"></script>
+    <script defer src="js/directory.js"></script>
   </body>
 </html>
