@@ -30,6 +30,5 @@ fetch(requestURL)
     card.appendChild(portrait);
 
 // add to existing HTML div
-    cards.appendChild(card);
-    
+    cards.appendChild(card);  
 }
