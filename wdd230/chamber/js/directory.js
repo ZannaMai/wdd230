@@ -24,9 +24,9 @@ fetch(requestURL)
     phonenumber.textContent = companies.phonenumber;
     website.textContent = companies.website;
   
-    image.setAttribute('src', companies.imageurl);
-    image.setAttribute('alt', `Image of ${companies.name}'s logo`);
-    image.setAttribute('loading', 'lazy');
+    imageurl.setAttribute('src', companies.imageurl);
+    imageurl.setAttribute('alt', `Image of ${companies.name}'s logo`);
+    imageurl.setAttribute('loading', 'lazy');
   
     
     card.appendChild(imageurl);

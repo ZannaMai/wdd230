@@ -473,9 +473,10 @@ background-color:#555;
 
 #cards {
   text-align: center;
-    color: #fff;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  padding-bottom: 20px;
 }
 #cards.active {
   display: block;
@@ -490,7 +491,7 @@ background-color:#555;
   color: #ffffff;
 }
 #cards h2 {
-  color: #5bc0be;
+  color: #161827;
 }
 #cards section img {
   max-width: 7em;
@@ -503,14 +504,10 @@ background-color:#555;
 }
 
 #cards section a:nth-child(5) {
-  color:#5bc0be;
+  color:#161827;
 }
 #cards.active section {
 text-align: left;
-}
-
-#cards.active section:nth-child(odd) {
-  background-color: #4363a0;
 }
 
 #cards.active section img {
@@ -521,4 +518,9 @@ text-align: left;
   display: block;
   font-size: 1.2rem;
   margin-top: 0;
+}
+.business {
+  border: 2px solid #161827;
+  width: auto;
+  background-color: #cacfd6;
 }
