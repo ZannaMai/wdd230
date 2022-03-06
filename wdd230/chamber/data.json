@@ -1,0 +1,88 @@
+{
+    "companies": [
+      {
+        "name": "Chip Cookies Company",
+        "address": "501 W MAIN STREET BOISE, ID 83702",
+        "phonenumber": "208-639-2447",
+        "website": "https://www.chipcookies.co/blogs/locations/boise",
+        "imageurl": "https://cdn.shopify.com/s/files/1/1582/4389/files/chip-logo_d0a18e7a-76ff-4d87-bd64-5c8ea46a79d5_180x.png?v=1602280664"
+      },
+      {
+        "name": "Chris Reeve Knives",
+        "address": "2949 S Victory View Way Boise, ID 83709",
+        "phonenumber": "208-375-0367",
+        "website": "https://chrisreeve.com/",
+        "imageurl": "https://cdn.shopify.com/s/files/1/0940/2142/files/CRKLogoPrestige_3ec8aeba-d85a-4e69-af6f-784f0808b072_75x.png?v=1530226862"
+      },
+      {
+        "name": "Merrill Quality Landscapes",
+        "address": "205 South 5th West, Rexburg, Idaho 83440",
+        "phonenumber": "208-356-7508",
+        "website": "https://merrilllandscaping.com/",
+        "imageurl": "https://merrilllandscaping.com/wp-content/uploads/2018/05/logo.jpg"
+      },
+      {
+        "name": "Odell's Furniture",
+        "address": "466 E. Anderson Idaho Falls, ID 83402",
+        "phonenumber": "208-523-5567",
+        "website": "http://odellsfurniturestore.com/",
+        "imageurl": "http://odellsfurniturestore.com/img/logos/odells_furniture_logo.gif"
+      },
+      {
+        "name": "Rock House Dentistry",
+        "address": "106 E. 1st North Rexburg, ID 83440",
+        "phonenumber": "208-356-5600",
+        "website": "https://www.rockhousedentistry.com/",
+        "imageurl": "https://www.rockhousedentistry.com/wp-content/uploads/sites/54/2017/09/logo_pink.png"
+      },
+      {
+        "name": "Cabana Inn",
+        "address": "1600 W. Main St. Boise ID 83702",
+        "phonenumber": "208-343-6000",
+        "website": "http://www.cabana-inn.com/",
+        "imageurl": "http://www.cabana-inn.com/img/logo.png"
+      },
+      {
+        "name": "Unstoppable Nutrition",
+        "address": "489 Park Ave, Idaho Falls, ID 83402",
+        "phonenumber": "208-206-0135",
+        "website": "https://smckinlay.goherbalife.com/Catalog/Home/Index/en-US",
+        "imageurl": "https://scontent.fboi1-1.fna.fbcdn.net/v/t1.6435-9/194085825_107184898269416_7764363649282346533_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Ebxb2fUbaIsAX8FKNDa&_nc_ht=scontent.fboi1-1.fna&oh=00_AT_C7xmQ6GVoZzwnk2srScL9Y-_VppzLps6JOAuMpuyoZQ&oe=62482CA2"
+      },
+      {
+        "name": "Museum of Idaho",
+        "address": "200 N Eastern Ave, Idaho Falls, ID 83402",
+        "phonenumber": "208-522-1400",
+        "website": "https://museumofidaho.org/",
+        "imageurl": "https://www.museumofidaho.org/wp-content/uploads/2017/08/MOI_LOGO_no_back_white.png"
+      },
+      {
+        "name": "Cardamom Cuisine of India",
+        "address": "501 Park Ave, Idaho Falls, ID 83402",
+        "phonenumber": "23 December 1805",
+        "website": "https://www.cardamom-restaurant.com/",
+        "imageurl": "https://le-cdn.hibuwebsites.com/b553bb578d27482aa34a78af79397ea3/dms3rep/multi/opt/Cardamom-LOGO-340w.png"
+      },
+      {
+        "name": "Centre Theatre",
+        "address": "461 Park Ave, Idaho Falls, ID 83402",
+        "phonenumber": "208-525-3340",
+        "website": "http://www.royaltheaters.com/",
+        "imageurl": "http://royaltheaters.com/uploads/images/royal_theaters_top2.png"
+      },
+      {
+        "name": "Idaho Mountain Trading",
+        "address": "474 Shoup Ave, Idaho Falls, ID 83402",
+        "phonenumber": "208-523-6679",
+        "website": "https://www.idahomountaintrading.com/",
+        "imageurl": "https://www.sefiles.net/merchant/1400/images/site/Website_IMT_Logo.png"
+      },
+      {
+        "name": "The Urban Nook Salon",
+        "address": "365 B St, Idaho Falls, ID 83402",
+        "phonenumber": "208-523-6665",
+        "website": "https://www.google.com/maps/place/The+Urban+Nook+Salon/@43.492507,-112.0406656,17.47z/data=!4m13!1m7!3m6!1s0x5354594e739512b5:0x2311c9fc094c49c9!2sIdaho+Falls,+ID!3b1!8m2!3d43.4926607!4d-112.0407584!3m4!1s0x0:0x187e60c07d75a740!8m2!3d43.4932535!4d-112.0396563",
+        "imageurl": "https://lh5.googleusercontent.com/p/AF1QipNs3wXFB5X9_CCynC0G0CtwTdHCtmVPax0CiPbA=w426-h240-k-no"
+      }
+    ]
+  }
