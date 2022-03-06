@@ -1,6 +1,6 @@
 const requestURL = "https://zannamai.github.io/wdd230/chamber/data.json";
 const cards = document.querySelector('.cards');
-
+ 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -10,7 +10,7 @@ fetch(requestURL)
     const companies = jsonObject['companies'];
     companies.forEach(displayCompanies);
   });
-
+ 
   function displayCompanies(company) {
     // create elements to add to the document
     let card = document.createElement("section");
@@ -23,12 +23,13 @@ fetch(requestURL)
     favicon.setAttribute('src', company.imageurl);
     favicon.setAttribute('alt', `${company.name} ${company.address}`);
     favicon.setAttribute('loading', 'lazy')
-
+ 
 // appent to the section(card)
     card.appendChild(h2);
     card.appendChild(info)
     card.appendChild(favicon);
-
+ 
 // add to existing HTML div
     cards.appendChild(card);  
 }
+
