@@ -1,5 +1,5 @@
 //Weather
-//const apiURL = "https://api.openweathermap.org/data/2.5/weather?temperature&lat=43.4931&lon=-112.0428&units=metric&appid=082ab106dd8a8209d0637abf917b514d";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?temperature&lat=43.4931&lon=-112.0428&units=metric&appid=082ab106dd8a8209d0637abf917b514d";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
