@@ -16,7 +16,7 @@ p {
 body {
   display: block;
 }
-header #logo-small {
+header .logo-small {
   width: 75px;
   float: left;
   margin-top: -140px;
@@ -80,7 +80,8 @@ html {
 }
 h1,
 h2,
-h3 {
+h3,
+button {
   font-family: "Dancing Script", cursive;
 }
 img {
@@ -144,11 +145,13 @@ img {
   padding: 10px;
   border: 5px solid #a6b1e1;
   position: relative;
+  height: 300px;
+  margin-top: -60px;
 }
 
 .hero img {
   width: 100%;
-  height: 100%;
+  height: 95%;
 }
 
 .hero h2 {
@@ -256,10 +259,6 @@ img {
   font-family: "Changa", sans-serif;
   color: #9988e7;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.join-button {
-  color: black;
 }
 
 .join p {
@@ -441,7 +440,7 @@ background-color:#555;
   text-decoration: underline;
 }
 
-.directory header {
+.directory {
   background-color:#9988e7;
   margin-top: 10px;
   text-align: center;
