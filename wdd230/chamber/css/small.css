@@ -383,7 +383,6 @@ nav ul.open {
 }
 .discover-grid {
   justify-content: center;
-  margin-top: 150px;
 }
 picture img {
   padding: 25px;
@@ -466,9 +465,8 @@ background-color:#555;
 
 .directory {
   background-color:#9988e7;
-  margin-top: 10px;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 10px;;
 }
 #gridBtn {
   border: none;
@@ -546,4 +544,9 @@ text-align: left;
   border: 2px solid #161827;
   width: auto;
   background-color: #cacfd6;
+}
+.visit {
+  border: solid 1px;
+  background-color: lightgrey;
+  padding: 10px;
 }
