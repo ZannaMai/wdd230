@@ -8,14 +8,14 @@
   .logo2 {
     margin-top: -150px;
   }
-  .announcement {
-    margin-top: -30px;
-  }
   .home-grid {
     grid-template-columns: 1.5fr 1fr;
     grid-template-rows: 400px repeat(3, 200px);
   }
-
+  .announcement {
+    position: relative; bottom: 20rem;
+    margin-top: none;
+  }
   .hero {
     grid-column: 1/4;
     grid-row: 1;
@@ -30,7 +30,6 @@
 
   .weather img {
     float: none;
-
   }
 
   .news-release {

@@ -10,7 +10,9 @@ p {
 }
 .announcement {
   background-color: #a6b1e1;
-  margin-top: -15px;
+  margin-top: 10px;
+  padding: .5px;
+  text-align: center;
 }
 
 body {
@@ -87,18 +89,36 @@ button {
 img {
   max-width: 100%;
 }
-header,
-footer {
+header {
   color: #161827;
   background-color: #808c9d;
   text-align: center;
 }
+footer {
+  color: #161827;
+  background-color: #808c9d;
+  padding: 1em;
+}
 header {
   padding: 2em;
 }
-footer {
-  padding: 1em;
+
+.footer-logo {
+  width: 5rem;
 }
+.address {
+  float: right;
+  margin-right: 70px;
+}
+.contact {
+  display: inline;
+  padding: 20px;
+}
+.date-footer {
+  display: block;
+  text-align: center;
+}
+
 nav {
   background-color: #a6b1e1;
   text-align: center;
