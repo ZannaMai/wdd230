@@ -51,6 +51,10 @@
   .weather .temp-move {
     position: absolute;
   }
+  #weathericon {
+    margin-top: 15px;
+    margin-left: -100px;
+  }
 
   .join {
     display: block;
